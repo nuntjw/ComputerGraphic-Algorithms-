@@ -82,7 +82,7 @@ def ellipse rx, ry, x, y
 
   array = []
   1.upto(4).each do |n_quadant|
-    print "Quadant ##{n_quadant}\n"
+    print "RESULT:: Quadant ##{n_quadant}\n"
     print "  (x, y)  \n"
     print "==========\n"
     points.each do |point|
